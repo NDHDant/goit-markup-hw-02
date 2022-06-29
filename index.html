@@ -4,15 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>WebStudio</title>
+	 <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <!-- Header section -->
-    <header>
+    <header class="header">
       <!-- Logo -->
-      <a href="index.html">WebStudio</a>
+      <a class="header-logo" href="index.html"
+        ><span class="logo-web">Web<span class="logo-studio">Studio</span></span></a
+      >
       <!-- Header nav -->
-      <nav>
+      <nav class="header-nav">
         <ul>
           <li><a href="index.html">Студия</a></li>
           <li><a href="portfolio.html">Портфолио</a></li>
@@ -20,7 +29,7 @@
         </ul>
       </nav>
       <!-- Header cont -->
-      <ul>
+      <ul class="header-cont">
         <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
@@ -28,36 +37,36 @@
     <!-- Main section -->
     <main>
       <!-- Hero section -->
-      <section>
-        <h1>Эффективные решения для вашего бизнеса</h1>
-        <button type="button">Заказать услугу</button>
+      <section class="hero">
+        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+        <button class="hero-but" type="button"><span class="hero-but-title">Заказать услугу</span></button>
       </section>
       <!-- Benefits section -->
-      <section>
+      <section class="benefits">
         <h2 hidden>Наши преймущиства</h2>
-        <ul>
-          <li>
-            <h3>Внимание к деталям</h3>
-            <p>
+        <ul class="benefits-list">
+          <li class="benefits-item">
+            <h3 class="benefits-title">Внимание к деталям</h3>
+            <p class="benefits-descrip">
               Современные технологии Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
-          </li>
+          </li class="benefits-item">
           <li>
-            <h3>Пунктуальность</h3>
-            <p>
+            <h3 class="benefits-title">Пунктуальность</h3>
+            <p class="benefits-descrip">
               Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
             </p>
-          </li>
+          </li class="benefits-item">
           <li>
-            <h3>Планирование</h3>
-            <p>
+            <h3 class="benefits-title">Планирование</h3>
+            <p class="benefits-descrip">
               Равным образом консультация с широким активом в значительной степени обуславливает.
             </p>
           </li>
-          <li>
-            <h3>Современные технологии</h3>
-            <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+          <li class="benefits-item">
+            <h3 class="benefits-title">Современные технологии</h3>
+            <p class="benefits-descrip">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
           </li>
         </ul>
       </section>
@@ -77,22 +86,22 @@
           <li>
             <img src="./images/team/img-1.jpeg" alt="Игорь Демьяненко" width="270" />
             <h3>Игорь Демьяненко</h3>
-            <p>Product Designer</p>
+            <p lang="en">Product Designer</p>
           </li>
           <li>
             <img src="./images/team/img-2.jpeg" alt="Ольга Репина" width="270" />
             <h3>Ольга Репина</h3>
-            <p>Frontend Developer</p>
+            <p lang="en">Frontend Developer</p>
           </li>
           <li>
             <img src="./images/team/img-3.jpeg" alt="Николай Тарасов" width="270" />
             <h3>Николай Тарасов</h3>
-            <p>Marketing</p>
+            <p lang="en">Marketing</p>
           </li>
           <li>
             <img src="./images/team/img-4.jpeg" alt="Михаил Ермаков" width="270" />
             <h3>Михаил Ермаков</h3>
-            <p>UI Designer</p>
+            <p lang="en">UI Designer</p>
           </li>
         </ul>
       </section>

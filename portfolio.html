@@ -4,15 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>WebStudio</title>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <!-- Header section -->
-    <header>
+    <header class="header">
       <!-- Logo -->
-      <a href="index.html">WebStudio</a>
+      <a class="header-logo" href="index.html"
+        ><span class="logo-web">Web<span class="logo-studio">Studio</span></span></a
+      >
       <!-- Header nav -->
-      <nav>
+      <nav class="header-nav">
         <ul>
           <li><a href="index.html">Студия</a></li>
           <li><a href="portfolio.html">Портфолио</a></li>
@@ -20,7 +29,7 @@
         </ul>
       </nav>
       <!-- Header cont -->
-      <ul>
+      <ul class="header-cont">
         <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
@@ -29,6 +38,7 @@
     <main>
       <!-- Filter section -->
       <section>
+        <h1 hidden>Портфолио</h1>
         <ul>
           <li><button type="button">Все</button></li>
           <li><button type="button">Веб-сайты</button></li>
@@ -36,9 +46,7 @@
           <li><button type="button">Дизайн</button></li>
           <li><button type="button">Маркетинг</button></li>
         </ul>
-      </section>
-      <!-- Projects section -->
-      <section>
+        <!-- Projects section -->
         <h2 hidden>Наши проекты</h2>
         <ul>
           <li>
