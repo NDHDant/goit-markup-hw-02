@@ -1,30 +1,25 @@
-* {
-	margin: 0;
-	padding: 0;
-}
+/* Global styles */
+
 body {
-	position: absolute;
 	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	color: #000;
+}
+:root {
+	--brand-onfocus-color: #2196F3;
 }
 
-a {
-	text-decoration: none;
-}
 /* Logo */
 .logo-web {
-	position: absolute;
-		width: 145px;
-		height: 31px;
-		left: 215px;
-		top: 24px;
 		font-family: 'Raleway';
 		font-style: normal;
 		font-weight: 700;
 		font-size: 26px;
-		line-height: 31px;
-		/* identical to box height */
+		line-height: 1.19;
+		
 		letter-spacing: 0.03em;
-		color: #2196F3;
+		color: var(--brand-onfocus-color);
 }
 
 .logo-studio {
@@ -32,26 +27,49 @@ a {
 }
 
 /* Navigation */
+.header {
+	display: flex;
+}
+
+.header-cont {
+	display: flex;
+}
+.header-link {
+	display: flex;
+}
+
+.header-link {
+	text-decoration: none;
+}
 
 /* Hero */
 .hero {
-	position: absolute;
-		width: 1600px;
-		height: 600px;
-		left: 0px;
-		top: 80px;
 		background: #2F303A;
 }
 
-.hero-but {
+.hero-title {
 	position: absolute;
-		width: 200px;
-		height: 50px;
-		left: 700px;
-		top: 430px;
-		background: #2196F3;
-		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-		border-radius: 4px;
+
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	/* or 136% */
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+}
+
+.hero-but {
+	width: 200px;
+	height: 50px;
+
+	background: var(--brand-onfocus-color);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
 }
 
 .hero-but-title {
@@ -61,30 +79,10 @@ a {
 		font-style: normal;
 		font-weight: 700;
 		font-size: 16px;
-		line-height: 30px;
-		/* identical to box height, or 188% */
+		line-height: 1.9;
 		display: flex;
 		align-items: center;
 		text-align: center;
 		letter-spacing: 0.06em;
-		color: #FFFFFF;
-}
-
-.hero-title {
-	position: absolute;
-		width: 696px;
-		height: 120px;
-		left: 452px;
-		top: 280px;
-		font-family: 'Roboto';
-		font-style: normal;
-		font-weight: 900;
-		font-size: 44px;
-		line-height: 60px;
-		/* or 136% */
-		text-align: center;
-		letter-spacing: 0.06em;
-		text-transform: uppercase;
-	
 		color: #FFFFFF;
 }
