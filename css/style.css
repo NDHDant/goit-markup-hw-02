@@ -1,6 +1,7 @@
 /* Global styles */
 
 body {
+	width: 1200px;
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 400;
@@ -19,6 +20,8 @@ body {
 .text {
 	color: var(--brand-p-color);
 }
+
+/* Reset styles */
 .link {
 	text-decoration: none;
 }
@@ -26,6 +29,7 @@ body {
 .list {
 	list-style-type: none;
 }
+
 /* Header */
 /* Logo */
 .logo-web {
@@ -44,13 +48,10 @@ body {
 }
 
 /* Navigation */
-.header {
 
-}
-
-.header-list {
+/* .header-list {
 	display: flex;
-}
+} */
 
 .header-link {
 	/* display: flex; */
@@ -66,13 +67,17 @@ body {
 	color: var(--brand-onfocus-color);
 }
 
+.header-link-current {
+	color: var(--brand-onfocus-color);
+}
+
 .header-cont {
 	font-weight: 500;
-		font-size: 14px;
-		line-height: 1.14;
-		letter-spacing: 0.02em;
-	
-		color: var(--brand-p-color)
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+
+	color: var(--brand-p-color)
 }
 
 .header-cont:hover,
@@ -101,34 +106,34 @@ body {
 }
 
 .hero-but {
-	width: 200px;
-	height: 50px;
+	font-family: inherit;
 
 	background: var(--brand-onfocus-color);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
 }
 
-.hero-but-title {
-	position: absolute;
 
-		font-family: 'Roboto';
-		font-style: normal;
-		font-weight: 700;
-		font-size: 16px;
-		line-height: 1.9;
-		display: flex;
-		align-items: center;
-		text-align: center;
-		letter-spacing: 0.06em;
-		color: #FFFFFF;
+
+.hero-but-title {
+
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.9;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.06em;
+	color: #FFFFFF;
 }
 
 /* Benefits */
 
-.benefits-list {
+/* .benefits-list {
 	display: flex;
-}
+} */
 
 .benefits-title {
 	font-weight: 700;
@@ -148,14 +153,135 @@ body {
 
 /* About */
 
+.about-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+	letter-spacing: 0.03em;
+}
 
+/* .about-list {
+	display: flex;
+} */
 /* Team */
+
+.team-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+
+/* .team-list {
+	display: flex;
+} */
+
+.team-subtitle {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.19;
+	
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+
+.team-text {
+	font-size: 16px;
+	line-height: 1.19;
+	
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+
+/* Footer */
+
+.footer {
+	background-color: #2F303A;
+}
+
+.logo-footer {
+	color: #FFFFFF;
+}
+
+.fooret-link-addres {
+	font-style: normal;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+	
+	color: #FFFFFF;
+}
+
+.fooret-link {
+	font-style: normal;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.fooret-link:hover,
+.fooret-link:focus,
+.fooret-link-addres:hover,
+.fooret-link-addres:focus {
+	color: var(--brand-onfocus-color);
+}
+
 
 
 /* * Portfolio * */
 
 
 /* Buttons */
+/* .portfolio-list {
+	display: flex;
+} */
 
+.portfolio-btn {
+	font-family: inherit;
+	background-color: #F5F4FA;
+	border-radius: 4px;
+}
+
+.portfolio-active-btn{
+	background-color: var(--brand-onfocus-color);
+	color: #FFFFFF;
+}
+.portfolio-btn:hover {
+	background-color: var(--brand-onfocus-color);
+	color: #FFFFFF;
+}
+
+.portfolio-text-btn {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+	
+	text-align: center;
+	letter-spacing: 0.03em;
+}
 
 /* Projects */
+
+/* .projects-list {
+	display: flex;
+	flex-wrap: wrap;
+} */
+
+.projects-title {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2.0;
+	
+		letter-spacing: 0.06em;
+}
+
+.projects-text {
+	font-size: 16px;
+	line-height: 1.88;
+	letter-spacing: 0.03em;
+}
