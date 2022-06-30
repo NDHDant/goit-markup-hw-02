@@ -4,12 +4,29 @@ body {
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 400;
-	color: #000;
+	color: var(--brand-subtitle-color);
 }
 :root {
 	--brand-onfocus-color: #2196F3;
+	--brand-p-color: #757575;
+	--brand-subtitle-color: #212121;
 }
 
+.title {
+	color: var(--brand-subtitle-color);
+}
+
+.text {
+	color: var(--brand-p-color);
+}
+.link {
+	text-decoration: none;
+}
+
+.list {
+	list-style-type: none;
+}
+/* Header */
 /* Logo */
 .logo-web {
 		font-family: 'Raleway';
@@ -28,18 +45,39 @@ body {
 
 /* Navigation */
 .header {
+
+}
+
+.header-list {
 	display: flex;
+}
+
+.header-link {
+	/* display: flex; */
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	color: var(--brand-subtitle-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+	color: var(--brand-onfocus-color);
 }
 
 .header-cont {
-	display: flex;
-}
-.header-link {
-	display: flex;
+	font-weight: 500;
+		font-size: 14px;
+		line-height: 1.14;
+		letter-spacing: 0.02em;
+	
+		color: var(--brand-p-color)
 }
 
-.header-link {
-	text-decoration: none;
+.header-cont:hover,
+.header-cont:focus {
+	color: var(--brand-onfocus-color);
 }
 
 /* Hero */
@@ -48,14 +86,13 @@ body {
 }
 
 .hero-title {
-	position: absolute;
 
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
-	/* or 136% */
+
 	text-align: center;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
@@ -86,3 +123,39 @@ body {
 		letter-spacing: 0.06em;
 		color: #FFFFFF;
 }
+
+/* Benefits */
+
+.benefits-list {
+	display: flex;
+}
+
+.benefits-title {
+	font-weight: 700;
+		font-size: 14px;
+		line-height: 1.14;
+		letter-spacing: 0.03em;
+		text-transform: uppercase;
+}
+
+.benefits-text {
+	font-size: 14px;
+	line-height: 1.71;
+	
+	letter-spacing: 0.03em;
+}
+
+
+/* About */
+
+
+/* Team */
+
+
+/* * Portfolio * */
+
+
+/* Buttons */
+
+
+/* Projects */
