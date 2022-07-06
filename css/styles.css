@@ -108,17 +108,6 @@ body {
 .hero-but {
 	font-family: inherit;
 
-	background: var(--brand-onfocus-color);
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-	border-radius: 4px;
-	cursor: pointer;
-}
-
-
-
-.hero-but-title {
-
-	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 700;
 	font-size: 16px;
@@ -128,7 +117,13 @@ body {
 	text-align: center;
 	letter-spacing: 0.06em;
 	color: #FFFFFF;
+
+	background: var(--brand-onfocus-color);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+	cursor: pointer;
 }
+
 
 /* Benefits */
 
@@ -246,6 +241,12 @@ body {
 .portfolio-btn {
 	font-family: inherit;
 	background-color: #F5F4FA;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+	
+	text-align: center;
+	letter-spacing: 0.03em;
 
 	border-radius: 4px;
 	cursor: pointer;
@@ -258,15 +259,6 @@ body {
 .portfolio-btn:hover {
 	background-color: var(--brand-onfocus-color);
 	color: #FFFFFF;
-}
-
-.portfolio-text-btn {
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.62;
-	
-	text-align: center;
-	letter-spacing: 0.03em;
 }
 
 /* Projects */
